@@ -1,7 +1,9 @@
 ###> symfony/framework-bundle ###
 .env
-.env.*
 .env.local
+.env.development
+.env.test
+.env.production
 dockerfile
 /var/
 /vendor/

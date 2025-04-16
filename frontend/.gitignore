@@ -1,7 +1,9 @@
 # Dépendances
 .env
-.env.*
 .env.local
+.env.development
+.env.test
+.env.production
 node_modules
 .pnp
 .pnp.js
