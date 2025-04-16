@@ -9,6 +9,8 @@ import { useTheme } from '@/contexts/ThemeContext';
 const AllFormations = () => {
   const { colorMode, toggleColorMode, currentTheme } = useTheme();
 
+// Test
+
   useEffect(() => {
     // Simple animation effect for stars using CSS animations instead of GSAP
     const stars = document.querySelectorAll('.star');
